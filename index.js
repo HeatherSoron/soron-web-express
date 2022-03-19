@@ -102,7 +102,7 @@ module.exports = {
 		create_directories([
 			storage.dir,
 		])
-		app.listen(PORT, function() {
+		return app.listen(PORT, function() {
 			console.log('Listening on port ' + PORT);
 		})
 	},
